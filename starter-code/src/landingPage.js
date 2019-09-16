@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 import "./landingPage.css"
 
-class landingPage extends Component {
+class LandingPage extends Component {
   render(){
     const title = 'Say hello to ReactJS'
 
@@ -9,11 +9,12 @@ class landingPage extends Component {
 
     return(
       <div className="landingPage">
-        {title}
+        <h1>HOLAAAAA</h1>
+        {elemTitle}
       </div>
     )
 
   }
 }
 
-export default landingPage
+export default LandingPage
