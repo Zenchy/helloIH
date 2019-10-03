@@ -1,4 +1,12 @@
 .landingPage{
-  margin: 1rem;
+  box-sizing: border-box;
+  background-color:black;
+  padding: 3rem;
+  margin:1vh;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height:98vh;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }

@@ -1,0 +1,13 @@
+.images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoIronHack{
+  width: 3rem;
+}
+
+.logoMenu{
+  width: 2rem;
+}

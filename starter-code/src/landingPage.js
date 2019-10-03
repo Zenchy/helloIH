@@ -1,16 +1,18 @@
 import React, {Component} from "react"
 import "./landingPage.css"
+import Text from './text.js'
+import Images from './images.js'
+import Button from './button.js'
 
 class LandingPage extends Component {
-  render(){
-    const title = 'Say hello to ReactJS'
-
-    const elemTitle = (<h1>{title}</h1>)
-
+  render(){ 
     return(
-      <div className="landingPage">
-        <h1>HOLAAAAA</h1>
-        {elemTitle}
+      <div class="landingPage">
+      <div><Images/></div>
+        <div>
+          <Text/>
+          <Button/>
+        </div>
       </div>
     )
 
