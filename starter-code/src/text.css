@@ -1,14 +1,15 @@
 .hello {
-  width: 15rem;
+  padding-top: 10rem;
+  width: 30rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   word-wrap: normal;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .lema {
-  width: 12rem;
+  width: 18rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   word-wrap: normal;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
